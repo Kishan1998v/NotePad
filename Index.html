@@ -13,6 +13,24 @@
         <div id="DisplaySection">
                 
         </div>
+        <script type="text/javascript">
+            function boldText(){
+                var target = document.getElementById("Contecttext");
+                if( target.style.fontWeight == "bolder" ) {
+                    target.style.fontWeight = "normal";
+                } else {
+                    target.style.fontWeight = "bolder";
+                }
+            }
+            function underlineText(){
+                var target = document.getElementById("Contecttext");
+                if( target.style.textDecoration == "underline" ) {
+                    target.style.textDecoration = "none";
+                } else {
+                    target.style.textDecoration = "underline";
+                }
+            }
+            </script>
         <script src="Assets/JS/Function.js"></script>
     </body>
 </html>
